@@ -1,0 +1,436 @@
+.wrapper {
+    position: relative;
+    width: 1728px;
+    height: 1117px;
+
+    background: #FFFFFF;
+}
+
+.text_field {
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 52px;
+    top: 49px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.text_field > span {
+    color: red;
+}
+input[type=text], textarea, input[type="number"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.group_2 {
+    position: absolute;
+    width: 716px;
+    height: 61px;
+    left: 55px;
+    top: 94px;
+}
+
+.rectangle_2 {
+    
+
+    position: absolute;
+    width: 716px;
+    height: 61px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+
+.input_text {
+
+    position: absolute;
+    width: 716px;
+    height: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+    padding-left: 10;
+
+    color: #808080;
+
+}
+
+
+.select_feild {
+    position: absolute;
+    width: 133px;
+    height: 29px;
+    left: 55px;
+    top: 203px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.info_1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 203px;
+    top: 206px;
+
+    background: #FFFFFF;
+}
+.info_1 > img {
+    width: 24px;
+    height: 24px;
+}
+
+.group_3 > select {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 716px;
+    height: 61px;
+    left: 58px;
+    top: 248px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-left: 10px;
+}
+
+.text_area{
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 58px;
+    top: 357px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.info_2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 176px;
+    top: 360px;
+
+    background: #FFFFFF;
+}
+.info_2 > img {
+    width: 24px;
+    height: 24px;
+}
+
+.area {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 716px;
+    height: 197px;
+    left: 61px;
+    top: 402px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-left: 10px;
+}
+
+.text2 {
+    position: absolute;
+    width: 289px;
+    height: 29px;
+    left: 61px;
+    top: 650px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.text2 > span {
+    color: red;
+}
+
+.addon_input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 716px;
+    height: 65px;
+    left: 64px;
+    top: 695px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #808080;
+
+    padding-right: 25px;
+}
+
+.label {
+    position: absolute;
+    width: 62px;
+    height: 29px;
+    left: 90px;
+    top: 720px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 220px;
+    height: 65px;
+    left: 560px;
+    top: 703px;
+
+    border: 1.5px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.search {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 716px;
+    height: 61px;
+    left: 912px;
+    top: 94px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+.search_icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 931px;
+    top: 113px;
+}
+.increment {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 143px;
+    height: 61px;
+    left: 912px;
+    top: 195px;
+
+    border: 1px solid #808080;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #808080;
+}
+
+.checkbox {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 912px;
+    top: 295px;
+}
+.clabel {
+    position: absolute;
+    left: 960px;
+    top: 296px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.radio {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 912px;
+    top: 350px;
+}
+.rlabel {
+    position: absolute;
+    left: 960px;
+    top: 351px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+
+.switchDiv {
+    position: absolute;
+    left: 915px;
+    top: 410px;
+}
+
+.slabel {
+    position: absolute;
+    left: 1000px;
+    top: 410px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
