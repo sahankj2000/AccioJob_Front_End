@@ -1,0 +1,101 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.navbar {
+    padding: 10px 10px;
+}
+
+.collapse {
+    display: grid;
+}
+
+.cards {
+    display: flex;
+}
+
+td, th {
+    word-break:break-all;
+}
+
+form input {
+    border-radius: 0 !important;
+}
+
+img {
+    border-radius: 0px !important;
+}
+
+@media screen and (min-width:992px){    /* wide */
+    .navbar-brand {
+        display: none;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .cards {
+        flex-direction: row;
+        margin: -15px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .form-first {
+        display: flex;
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .col2 {
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width:991px) {   /* small */
+    .wrapper {
+        width: 100%;
+    }
+
+    .navbar {
+        margin: 5px 25px;
+    }
+    
+    .cards {
+        flex-direction: column;
+        justify-items: center;
+        margin: 10px;
+    }
+    
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .carousel, .carousel-inner, .carousel-item, .carousel-item > img {
+        height: 100vh;
+    }
+
+    .carousel-item > img {
+        object-fit: none;
+    }
+
+    .accordion {
+        padding: 10px 15px;
+    }
+
+    form, .form-title{
+        padding: 15px;
+    }
+}
